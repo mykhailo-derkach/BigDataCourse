@@ -1,0 +1,31 @@
+{
+  "namespace": "storeProducer",
+  "type": "record",
+  "name": "CreateProductRequest",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "category",
+      "type": "string"
+    },
+    {
+      "name": "barcode",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "type": "int"
+    }
+  ]
+}

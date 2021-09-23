@@ -1,0 +1,43 @@
+{
+  "namespace": "io.codebrews.createuserrequest",
+  "type": "record",
+  "name": "CreateUserRequest",
+  "fields": [
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "first_name",
+      "type": "string"
+    },
+    {
+      "name": "last_name",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "job",
+      "type": "string"
+    },
+    {
+      "name": "gender",
+      "type": "string"
+    },
+    {
+      "name": "has_children_under_sixteen",
+      "type": "boolean"
+    }
+  ]
+}
+
+curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+  --data '{"compatibility": "NONE"}' \
+  http://localhost:8081/config

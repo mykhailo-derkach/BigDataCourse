@@ -1,0 +1,5 @@
+requests
+avro
+confluent-kafka
+Faker
+faker_vehicle
